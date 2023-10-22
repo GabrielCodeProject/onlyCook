@@ -1,0 +1,42 @@
+.header {
+    align-items: center;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 73px;
+    justify-content: center;
+    position: relative;
+    width: 1400px;
+  }
+  
+  .header .menu-header {
+    align-items: center;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: space-between;
+    position: relative;
+    width: 1152px;
+  }
+  
+  .header .logo-placeholder-instance {
+    align-self: stretch !important;
+    height: unset !important;
+    overflow: hidden !important;
+    width: 137px !important;
+    z-index: 1 !important;
+  }
+  
+  .header .menu-items {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 12px;
+    position: relative;
+    z-index: 0;
+  }
+  
+  .header .menu-item-instance {
+    flex: 0 0 auto !important;
+  }
+  
